@@ -15,6 +15,12 @@ export default function Navbar(){
                 <li className="p__opensans"><a href="#contact"></a>Contact</li>
                 <li className="p__opensans"><a href="#awards"></a>Awards</li>
             </ul>
+            <div className="app_navbar-login">
+                <a href="#login" className="p__opensans">LogIn/Register</a> 
+                
+                <a href="/" className="p__opensans">Book Table</a>   
+            </div>
+
         </nav>
     );
 };
