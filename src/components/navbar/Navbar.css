@@ -35,3 +35,31 @@
 .app__navbar-links li:hover{
     color: wheat;
 }
+
+.app__navbar-login{
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.app__navbar-login a{
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.app__navbar-login a:hover{
+    color: wheat;
+    border-bottom: 1px solid red;
+}
+
+.app__navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: blue;
+}

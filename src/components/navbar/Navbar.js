@@ -1,4 +1,4 @@
-import {HamburgerMenu} from "react-icons/gi";
+import {GiHamburgerMenu, HamburgerMenu} from "react-icons/gi";
 import {MdOutlineRestaurantMenu} from "react-icons/md";
 import "./Navbar.css";
 
@@ -15,11 +15,15 @@ export default function Navbar(){
                 <li className="p__opensans"><a href="#contact"></a>Contact</li>
                 <li className="p__opensans"><a href="#awards"></a>Awards</li>
             </ul>
-            <div className="app_navbar-login">
+            <div className="app__navbar-login">
                 <a href="#login" className="p__opensans">LogIn/Register</a> 
-                
+                <div/>
                 <a href="/" className="p__opensans">Book Table</a>   
             </div>
+
+            {/* <div className="app__navbar-smallscreen">
+                <GiHamburgerMenu color="#fff"/>
+            </div> */}
 
         </nav>
     );
