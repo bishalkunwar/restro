@@ -83,3 +83,12 @@
     -ms-transition: 0.5s ease;
     -o-transition: 0.5s ease;
 }
+
+.app__navbar-smallscreen_overlay .overlay__close{
+    font-size: 27px;
+    color: goldenrod;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
