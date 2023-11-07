@@ -92,3 +92,21 @@
     top: 20px;
     right: 20px;
 }
+
+.app__navbar-smallscreen-links{
+    list-style: none;
+}
+
+.app__navbar-smallscreen-links li{
+    margin: 2rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__navbar-links{
+        display: none;
+    }
+
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+}
