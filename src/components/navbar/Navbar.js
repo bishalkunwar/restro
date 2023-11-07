@@ -1,4 +1,4 @@
-import {GiHamburgerMenu, HamburgerMenu} from "react-icons/gi";
+import {GiHamburgerMenu} from "react-icons/gi";
 import {MdOutlineRestaurantMenu} from "react-icons/md";
 import "./Navbar.css";
 
@@ -23,19 +23,16 @@ export default function Navbar(){
 
             <div className="app__navbar-smallscreen">
                 <GiHamburgerMenu color="#fff" fontSize={27} onClick={()=>{}}/>
-
                 <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
                     <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={()=>{}}/>
-
+                    <ul className="app__navbar-smallscreen-links">
+                        <li className="p__opensans"><a href="#home"></a>Home</li>
+                        <li className="p__opensans"><a href="#about"></a>About</li>
+                        <li className="p__opensans"><a href="#menu"></a>Menu</li>
+                        <li className="p__opensans"><a href="#contact"></a>Contact</li>
+                        <li className="p__opensans"><a href="#awards"></a>Awards</li>
+                    </ul>
                 </div>
-
-                <ul className="app__navbar-smallscreen-links">
-                    <li className="p__opensans"><a href="#home"></a>Home</li>
-                    <li className="p__opensans"><a href="#about"></a>About</li>
-                    <li className="p__opensans"><a href="#menu"></a>Menu</li>
-                    <li className="p__opensans"><a href="#contact"></a>Contact</li>
-                    <li className="p__opensans"><a href="#awards"></a>Awards</li>
-                </ul>
             </div>
 
         </nav>
