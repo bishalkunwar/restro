@@ -7,7 +7,7 @@ export default function Header(){
     return(
         <div className="app__header app__wrapper section_padding" id="home">
             <div className="app__header_info">
-                <SubHeading title="Chase the Nepalese Taste"/>
+                <SubHeading className="app__header-sh" title="Chase the Nepalese Taste"/>
                 <h1 className="app__header-h1">
                     The fine refined Nepalese Cuisine.
                 </h1>
