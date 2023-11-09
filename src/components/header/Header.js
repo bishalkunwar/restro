@@ -12,7 +12,7 @@ export default function Header(){
                 <h1 className="app__header-h1">
                     The fine refined Nepalese Cuisine.
                 </h1>
-                <p className="p__opensans" style={{margin: "2rem 0", color: "white"}}> yes this is the fine refined nepalese tatese resturants with the availability of all the foods and soft drinks. we do serve very well with the customer relation concern always into our head. Thank You</p>
+                <p className="p__opensans" style={{margin: "2rem 0", color: "white"}}> yes this is the fine refined nepalese tatese resturants <br/> with the availability of all the foods and soft drinks. <br/> we do serve very well with the customer relation concern always into our head. <br/>Thank You</p>
                 <button type="button" className="custom_button">Explore Menu</button>
             </div>
             

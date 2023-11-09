@@ -1,5 +1,5 @@
 .app__header{
-
+    padding: 5rem;
     background-color: var(--color-black);
     display: flex;
 }
