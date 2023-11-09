@@ -1,5 +1,18 @@
 .app__header{
+    margin-top: 2em;
+    padding-top: 2em;
     background-color: var(--color-black);
+    display: flex;
+}
+
+.app__header_info{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.app__wrapper_img{
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .app__header-sh{
@@ -11,4 +24,6 @@
     color: var(--color-golden); 
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    line-height: 100px;
+    font-size: 90px;
 }
