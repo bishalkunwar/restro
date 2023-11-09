@@ -1,6 +1,6 @@
 
-import spoon from "../assets/spoon.svg";
+import spoon from "../assets/spoon.png";
 
 export default {
-    spoon,
+    spoon
 };
