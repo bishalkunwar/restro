@@ -17,7 +17,7 @@ export default function Header(){
             </div>
             
             <div className="app__wrapper_img">
-                <img src={Images.welcome} alt="header img" style={{ height: "80%", width: "90%"}} />
+                <img src={Images.welcome} alt="header img"/>
             </div>
         </div>
     );
